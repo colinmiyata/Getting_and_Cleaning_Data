@@ -14,6 +14,7 @@ source("place_data_in_frame.R")
 ## Ensure data is downloaded from internet and unzip if necessary
 
 dateDownloaded<-download_and_extract_files() ## Written "Sun Nov 22 2015"
+## COMMENT OUT IF THE DATA IS ALREADY UNZIPPED IN WORKING DIRECTORY
 
 ## Extract training data and test data, merge and arrange by subject and 
 ## activities
